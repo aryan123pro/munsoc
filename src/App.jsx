@@ -187,7 +187,9 @@ function App(){
         ref={storyRef}
         style={{ '--story-progress': storyProgress }}
       >
-        <pre>
+       
+        <div className="story-stage">
+           <pre>
         
         
         
@@ -200,7 +202,6 @@ function App(){
         
         
         </pre>
-        <div className="story-stage">
           <div className="story-visual" aria-hidden="true">
             <div className="munsoc-core">
               <span>MUNSoc</span>
