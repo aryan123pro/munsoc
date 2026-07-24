@@ -214,13 +214,13 @@ function App(){
               <span>Registrations</span>
             </div>
             <div className="story-module module-two">
-              <span>Committees</span>
+              <span>Logic</span>
             </div>
             <div className="story-module module-three">
-              <span>Core team</span>
+              <span>Building</span>
             </div>
             <div className="story-module module-four">
-              <span>Content</span>
+              <span>BackEnd</span>
             </div>
             <div className="story-progress">
               <span style={{ width: `${storyPercent}%` }}></span>
