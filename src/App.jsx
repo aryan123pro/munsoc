@@ -189,19 +189,7 @@ function App(){
       >
        
         <div className="story-stage">
-           <pre>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </pre>
+          
           <div className="story-visual" aria-hidden="true">
             <div className="munsoc-core">
               <span>MUNSoc</span>
