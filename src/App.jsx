@@ -187,9 +187,7 @@ function App(){
         ref={storyRef}
         style={{ '--story-progress': storyProgress }}
       >
-       
-        <div className="story-stage">
-          
+       <div className="story-stage">
           <div className="story-visual" aria-hidden="true">
             <div className="munsoc-core">
               <span>MUNSoc</span>
@@ -202,10 +200,10 @@ function App(){
               <span>Registrations</span>
             </div>
             <div className="story-module module-two">
-              <span>Registration</span>
+              <span>Committees</span>
             </div>
             <div className="story-module module-three">
-              <span>Core Team</span>
+              <span>Core team</span>
             </div>
             <div className="story-module module-four">
               <span>Content</span>
@@ -214,7 +212,6 @@ function App(){
               <span style={{ width: `${storyPercent}%` }}></span>
             </div>
           </div>
-
           <div className="chapter-stack">
             {chapters.map((chapter, index) => (
               <article
